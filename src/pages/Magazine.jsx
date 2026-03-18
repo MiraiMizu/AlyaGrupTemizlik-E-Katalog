@@ -243,7 +243,7 @@ const InfoPage2 = () => (
         </div>
         <div className="h-1/2 relative overflow-hidden order-1">
             <img
-                src="/src/assets/ankara_logistics.png"
+                src="/images/ankara_logistics.png"
                 alt="Logistics Map"
                 className="w-full h-full object-cover opacity-80"
             />
