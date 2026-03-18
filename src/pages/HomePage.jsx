@@ -18,18 +18,18 @@ const HomePage = () => {
 
                 <div className="container relative z-10">
                     <div className="max-w-3xl">
-                        <h1 className="text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight fade-in">
+                        <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-white mb-6 leading-tight fade-in">
                             Endüstriyel Güç, <br />
                             <span className="text-secondary">Bilimsel Hassasiyet.</span>
                         </h1>
-                        <p className="text-lg lg:text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl fade-in" style={{ animationDelay: '0.1s' }}>
+                        <p className="text-base lg:text-xl text-gray-300 mb-8 leading-relaxed max-w-2xl fade-in" style={{ animationDelay: '0.1s' }}>
                             Türkiye'nin lider kimyasal ham madde tedarikçisi. Endüstriyel, kozmetik ve gıda sektörleri için güvenilir çözümler sunuyoruz.
                         </p>
-                        <div className="flex flex-wrap gap-4 fade-in" style={{ animationDelay: '0.2s' }}>
-                            <Link to="/products" className="btn btn-primary text-lg px-8">
+                        <div className="flex flex-col sm:flex-row gap-4 fade-in" style={{ animationDelay: '0.2s' }}>
+                            <Link to="/products" className="btn btn-primary text-base sm:text-lg px-8 w-full sm:w-auto justify-center">
                                 Ürünleri İncele
                             </Link>
-                            <Link to="/contact" className="btn btn-outline text-white border-white hover:bg-white hover:text-primary text-lg px-8">
+                            <Link to="/contact" className="btn btn-outline text-white border-white hover:bg-white hover:text-primary text-base sm:text-lg px-8 w-full sm:w-auto justify-center">
                                 Bize Ulaşın
                             </Link>
                         </div>

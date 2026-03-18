@@ -152,38 +152,38 @@ const CoverPage = () => (
     <div className="h-full flex flex-col items-center justify-center text-center p-8 bg-black text-white bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900 via-[#0a0a0a] to-black relative overflow-hidden border-r-4 border-gray-900">
 
         {/* Ambient Background Glow for Logo */}
-        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-secondary/10 rounded-full blur-[120px] pointer-events-none animate-pulse-slow"></div>
+        <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[250px] h-[250px] sm:w-[500px] sm:h-[500px] bg-secondary/10 rounded-full blur-[120px] pointer-events-none animate-pulse-slow"></div>
 
         {/* Logo Section */}
-        <div className="relative z-10 mb-16 transform transition-transform duration-700 hover:scale-105">
+        <div className="relative z-10 mb-6 sm:mb-16 transform transition-transform duration-700 hover:scale-105">
             <img
                 src={AlyaGrupLogo}
                 alt="Alya Grup Logo"
-                className="w-72 h-auto object-contain drop-shadow-[0_0_30px_rgba(255,255,255,0.1)] filter brightness-110"
+                className="w-36 sm:w-72 h-auto object-contain drop-shadow-[0_0_30px_rgba(255,255,255,0.1)] filter brightness-110"
             />
         </div>
 
         {/* Minimalist Typography */}
-        <div className="relative z-10 flex flex-col items-center gap-4">
+        <div className="relative z-10 flex flex-col items-center gap-2 sm:gap-4">
             <div className="flex items-center gap-4 w-full justify-center">
-                <div className="h-[1px] w-12 bg-gradient-to-r from-transparent to-gray-500"></div>
-                <h2 className="text-lg font-light tracking-[0.3em] text-gray-300 uppercase">
+                <div className="h-[1px] w-8 sm:w-12 bg-gradient-to-r from-transparent to-gray-500"></div>
+                <h2 className="text-xs sm:text-lg font-light tracking-[0.3em] text-gray-300 uppercase">
                     Katalog
                 </h2>
-                <div className="h-[1px] w-12 bg-gradient-to-l from-transparent to-gray-500"></div>
+                <div className="h-[1px] w-8 sm:w-12 bg-gradient-to-l from-transparent to-gray-500"></div>
             </div>
 
-            <h1 className="text-3xl font-medium tracking-widest text-white uppercase drop-shadow-lg">
+            <h1 className="text-lg sm:text-3xl font-medium tracking-widest text-white uppercase drop-shadow-lg">
                 Temizlik <span className="text-secondary font-bold">&</span> Hijyen
             </h1>
 
-            <p className="text-xs font-mono text-gray-500 tracking-[0.2em] mt-2">
+            <p className="text-[9px] font-mono text-gray-500 tracking-[0.2em] mt-1">
                 PROFESYONEL ÇÖZÜMLER
             </p>
         </div>
 
         {/* Footer Year */}
-        <div className="absolute bottom-12 left-0 right-0 text-center">
+        <div className="absolute bottom-6 sm:bottom-12 left-0 right-0 text-center">
             <div className="inline-block px-4 py-1 border border-white/10 rounded-full bg-white/5 backdrop-blur-sm">
                 <p className="text-[10px] font-bold tracking-widest text-gray-400">2026</p>
             </div>
@@ -224,11 +224,19 @@ const InfoPage1 = () => (
 
 const InfoPage2 = () => (
     <div className="h-full flex flex-col bg-black text-white">
-        <div className="h-1/2 p-8 flex flex-col justify-center order-2">
-            <h2 className="text-3xl font-bold mb-6 text-right border-r-4 border-secondary pr-4">Lojistik</h2>
-            <div className="space-y-6">
+        <div className="h-1/2 relative overflow-hidden">
+            <img
+                src="/images/ankara_logistics.png"
+                alt="Logistics Map"
+                className="w-full h-full object-cover opacity-80"
+            />
+            <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black/50"></div>
+        </div>
+        <div className="h-1/2 p-4 sm:p-8 flex flex-col justify-center">
+            <h2 className="text-xl sm:text-3xl font-bold mb-3 sm:mb-6 text-right border-r-4 border-secondary pr-4">Lojistik</h2>
+            <div className="space-y-3 sm:space-y-6">
                 <div className="text-right">
-                    <h4 className="font-bold text-secondary">Hızlı Teslimat</h4>
+                    <h4 className="font-bold text-secondary text-sm sm:text-base">Hızlı Teslimat</h4>
                     <p className="text-xs text-gray-400 mt-1">
                         Ankara içi: <span className="text-white font-bold">24 Saat</span><br />
                         İstanbul: <span className="text-white font-bold">48 Saat</span><br />
@@ -236,18 +244,10 @@ const InfoPage2 = () => (
                     </p>
                 </div>
                 <div className="text-right">
-                    <h4 className="font-bold text-secondary">Merkezi Dağıtım</h4>
+                    <h4 className="font-bold text-secondary text-sm sm:text-base">Merkezi Dağıtım</h4>
                     <p className="text-xs text-gray-400 mt-1">Ankara merkezli lojistik ağımız ile kesintisiz tedarik zinciri.</p>
                 </div>
             </div>
-        </div>
-        <div className="h-1/2 relative overflow-hidden order-1">
-            <img
-                src="/images/ankara_logistics.png"
-                alt="Logistics Map"
-                className="w-full h-full object-cover opacity-80"
-            />
-            <div className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black/50"></div>
         </div>
     </div>
 );
@@ -278,15 +278,15 @@ const CategoryCoverPage = ({ category, onOpenGallery }) => (
 );
 
 const ProductGridPage = ({ products, category, pageIndex, totalPages }) => (
-    <div className="h-full w-full p-6 md:p-8 flex flex-col bg-black overflow-hidden box-border">
+    <div className="h-full w-full p-3 sm:p-6 md:p-8 flex flex-col bg-black overflow-hidden box-border">
         {/* Header */}
-        <div className="flex justify-between items-end mb-4 border-b border-gray-800 pb-2 shrink-0">
-            <h3 className="text-xl font-bold text-white tracking-tight truncate max-w-[70%]">{category}</h3>
-            <span className="text-[10px] font-medium text-gray-500 whitespace-nowrap">Sayfa {pageIndex} / {totalPages}</span>
+        <div className="flex justify-between items-end mb-2 sm:mb-4 border-b border-gray-800 pb-2 shrink-0">
+            <h3 className="text-sm sm:text-xl font-bold text-white tracking-tight truncate max-w-[70%]">{category}</h3>
+            <span className="text-[8px] sm:text-[10px] font-medium text-gray-500 whitespace-nowrap">Sayfa {pageIndex} / {totalPages}</span>
         </div>
 
         {/* 2x2 Grid (Total 4 items max) */}
-        <div className="grid grid-cols-2 gap-4 flex-grow content-start">
+        <div className="grid grid-cols-2 gap-2 sm:gap-4 flex-grow content-start">
             {products.map(product => (
                 <div key={product.id} className="flex flex-col gap-1 mb-1 group">
                     <div className="aspect-square bg-white/5 rounded-lg overflow-hidden border border-gray-800 relative shadow-md hover:border-gray-600 transition-all">
@@ -295,14 +295,14 @@ const ProductGridPage = ({ products, category, pageIndex, totalPages }) => (
                             alt={product.name}
                             className="w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-500"
                         />
-                        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black via-black/80 to-transparent p-2 pt-6">
-                            <div className="text-white text-[10px] font-medium truncate text-center">
+                        <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black via-black/80 to-transparent p-1 sm:p-2 pt-4 sm:pt-6">
+                            <div className="text-white text-[8px] sm:text-[10px] font-medium truncate text-center">
                                 {product.name}
                             </div>
                         </div>
                     </div>
                     {product.features.Kod && (
-                        <div className="text-[9px] text-gray-500 text-center uppercase tracking-wider font-sans not-italic mt-1">
+                        <div className="text-[7px] sm:text-[9px] text-gray-500 text-center uppercase tracking-wider font-sans not-italic mt-1">
                             {product.features.Kod}
                         </div>
                     )}
@@ -311,7 +311,7 @@ const ProductGridPage = ({ products, category, pageIndex, totalPages }) => (
         </div>
 
         {/* Footer */}
-        <div className="mt-auto pt-2 border-t border-gray-800 flex justify-between items-center text-[8px] text-gray-600 uppercase tracking-widest font-sans not-italic">
+        <div className="mt-auto pt-1 sm:pt-2 border-t border-gray-800 flex justify-between items-center text-[7px] sm:text-[8px] text-gray-600 uppercase tracking-widest font-sans not-italic">
             <span>AlyaGrup</span>
             <span>2026</span>
         </div>
@@ -373,11 +373,14 @@ const Magazine = () => {
     useEffect(() => {
         const handleResize = () => {
             const screenW = window.innerWidth;
+            const screenH = window.innerHeight;
             if (screenW < 768) {
                 setIsMobile(true);
-                // Fit mobile screen with padding
-                const w = Math.min(480, screenW - 32);
-                setDimensions({ width: w, height: w * 1.416 });
+                // On mobile portrait: use nearly full screen width, maintain A4 ratio capped by screen height
+                const w = Math.min(420, screenW - 16);
+                const hFromRatio = w * 1.416;
+                const hMax = screenH - 130; // leave room for nav hint + safe area
+                setDimensions({ width: w, height: Math.min(hFromRatio, hMax) });
             } else {
                 setIsMobile(false);
                 // Desktop - either full size or scaled to fit window width

@@ -43,12 +43,12 @@ const ProductList = () => {
     };
 
     return (
-        <div className="bg-gray-50 min-h-screen py-10">
+        <div className="bg-gray-50 min-h-screen py-6 md:py-10">
             <div className="container">
 
                 {/* Header */}
-                <div className="flex flex-col md:flex-row justify-between items-center mb-10 gap-6">
-                    <h1 className="text-3xl font-bold text-primary">Ürün Kataloğu</h1>
+                <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
+                    <h1 className="text-2xl md:text-3xl font-bold text-primary self-start">Ürün Kataloğu</h1>
 
                     <div className="relative w-full md:w-96">
                         <input
@@ -62,9 +62,26 @@ const ProductList = () => {
                     </div>
                 </div>
 
+                {/* Mobile: horizontal scrollable chips */}
+                <div className="flex lg:hidden gap-2 overflow-x-auto pb-3 mb-6 -mx-4 px-4 scrollbar-hide">
+                    {categories.map(cat => (
+                        <button
+                            key={cat}
+                            onClick={() => handleCategoryChange(cat)}
+                            className={`flex-shrink-0 px-4 py-2 rounded-full text-sm font-medium border transition-colors ${
+                                (currentCategory === cat || (!currentCategory && cat === 'Tümü'))
+                                    ? 'bg-secondary text-white border-secondary shadow-md'
+                                    : 'bg-white text-gray-600 border-gray-200 hover:border-secondary hover:text-secondary'
+                            }`}
+                        >
+                            {cat}
+                        </button>
+                    ))}
+                </div>
+
                 <div className="flex flex-col lg:flex-row gap-10">
-                    {/* Sidebar Filters */}
-                    <div className="w-full lg:w-64 flex-shrink-0">
+                    {/* Desktop Sidebar Filters */}
+                    <div className="hidden lg:block w-64 flex-shrink-0">
                         <div className="bg-white p-6 rounded-xl border border-gray-100 shadow-sm sticky top-24">
                             <div className="flex items-center gap-2 mb-6 text-primary">
                                 <Filter className="w-5 h-5" />
@@ -91,7 +108,7 @@ const ProductList = () => {
                     {/* Product Grid */}
                     <div className="flex-1">
                         {products.length > 0 ? (
-                            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
                                 {products.map(product => (
                                     <ProductCard key={product.id} product={product} />
                                 ))}
