@@ -3,10 +3,10 @@ import { Beaker, Users, Globe } from 'lucide-react';
 
 const About = () => {
     return (
-        <div className="py-20">
+        <div className="py-12 md:py-20">
             <div className="container">
-                <div className="max-w-3xl mx-auto text-center mb-16">
-                    <h1 className="text-4xl font-bold text-primary mb-6">AlyaGrup Temizlik Hakkında</h1>
+                <div className="max-w-3xl mx-auto text-center mb-10 md:mb-16">
+                    <h1 className="text-3xl md:text-4xl font-bold text-primary mb-6">AlyaGrup Temizlik Hakkında</h1>
                     <p className="text-lg text-gray-600 leading-relaxed">
                         2010 yılından bu yana kimya sektöründe güven, kalite ve sürdürülebilirlik ilkeleriyle hizmet veriyoruz.
                         Endüstriyel üretimden laboratuvar ar-ge süreçlerine kadar her aşamada iş ortaklarımızın yanındayız.

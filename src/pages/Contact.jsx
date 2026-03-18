@@ -3,10 +3,10 @@ import { Mail, Phone, MapPin, Send } from 'lucide-react';
 
 const Contact = () => {
     return (
-        <div className="py-20 bg-gray-50">
+        <div className="py-10 md:py-20 bg-gray-50">
             <div className="container">
-                <div className="text-center max-w-2xl mx-auto mb-16">
-                    <h1 className="text-4xl font-bold text-primary mb-4">İletişime Geçin</h1>
+                <div className="text-center max-w-2xl mx-auto mb-10 md:mb-16">
+                    <h1 className="text-3xl md:text-4xl font-bold text-primary mb-4">İletişime Geçin</h1>
                     <p className="text-gray-500 text-lg">
                         Ürünlerimiz hakkında bilgi almak, fiyat teklifi istemek veya teknik destek için bize ulaşın.
                     </p>

@@ -18,18 +18,18 @@ const ProductDetail = () => {
         .slice(0, 4);
 
     return (
-        <div className="py-10 bg-white">
+        <div className="py-6 md:py-10 bg-white">
             <div className="container">
                 {/* Breadcrumb */}
-                <div className="flex items-center gap-2 text-sm text-gray-500 mb-8">
-                    <Link to="/" className="hover:text-primary">Anasayfa</Link> /
-                    <Link to="/products" className="hover:text-primary">Ürünler</Link> /
-                    <span className="text-secondary font-medium">{product.name}</span>
+                <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-500 mb-6 overflow-x-auto whitespace-nowrap">
+                    <Link to="/" className="hover:text-primary shrink-0">Anasayfa</Link> /
+                    <Link to="/products" className="hover:text-primary shrink-0">Ürünler</Link> /
+                    <span className="text-secondary font-medium truncate">{product.name}</span>
                 </div>
 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
                     {/* Image */}
-                    <div className="relative rounded-2xl overflow-hidden bg-gray-100 h-[400px] lg:h-[500px] shadow-sm">
+                    <div className="relative rounded-2xl overflow-hidden bg-gray-100 h-[250px] sm:h-[400px] lg:h-[500px] shadow-sm">
                         <img
                             src={product.image}
                             alt={product.name}
@@ -42,13 +42,13 @@ const ProductDetail = () => {
 
                     {/* Info */}
                     <div>
-                        <h1 className="text-4xl font-bold text-primary mb-4">{product.name}</h1>
-                        <p className="text-gray-600 text-lg leading-relaxed mb-8">
+                        <h1 className="text-2xl sm:text-4xl font-bold text-primary mb-3 sm:mb-4">{product.name}</h1>
+                        <p className="text-gray-600 text-base sm:text-lg leading-relaxed mb-6 sm:mb-8">
                             {product.description}
                         </p>
 
                         {/* Features Grid */}
-                        <div className="grid grid-cols-2 gap-4 mb-8">
+                        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-6 sm:mb-8">
                             {Object.entries(product.features).map(([key, value]) => (
                                 <div key={key} className="p-4 bg-gray-50 rounded-lg border border-gray-100">
                                     <span className="block text-xs text-gray-400 uppercase tracking-wider mb-1">{key}</span>
@@ -58,11 +58,11 @@ const ProductDetail = () => {
                         </div>
 
                         {/* Actions */}
-                        <div className="flex flex-col sm:flex-row gap-4 mb-10">
-                            <Link to="/contact" className="btn btn-primary flex-1 text-center justify-center py-4">
+                        <div className="flex flex-col gap-3 mb-8 sm:mb-10">
+                            <Link to="/contact" className="btn btn-primary w-full text-center justify-center py-3 sm:py-4">
                                 Fiyat ve Stok Sor
                             </Link>
-                            <button className="btn btn-outline flex-1 justify-center gap-2 py-4">
+                            <button className="btn btn-outline w-full justify-center gap-2 py-3 sm:py-4">
                                 <Download className="w-5 h-5" />
                                 MSDS İndir
                             </button>
