@@ -185,7 +185,7 @@
             "Boyut": "Mini Jumbo",
             "Üretici Firma": "Yöntem"
         },
-        "image": "/src/assets/new_products/kagit_fotograflar/Drop-MiniJumboTuvalet-kagidi.jpg"
+        "image": "/images/kagit/Drop-MiniJumboTuvalet-kagidi.jpg"
     },
     {
         "id": 102,
@@ -200,7 +200,7 @@
             "Özellik": "Suda Kolay Çözünür",
             "Üretici Firma": "Yöntem"
         },
-        "image": "/src/assets/new_products/kagit_fotograflar/Evo-TuvaletKagidi-3kat.jpeg"
+        "image": "/images/kagit/Evo-TuvaletKagidi-3kat.jpeg"
     },
     {
         "id": 103,
@@ -215,7 +215,7 @@
             "Renk": "Beyaz",
             "Üretici Firma": "Yöntem"
         },
-        "image": "/src/assets/new_products/kagit_fotograflar/Only-25x25GarsonKatlama.jpeg"
+        "image": "/images/kagit/Only-25x25GarsonKatlama.jpeg"
     },
     {
         "id": 104,
@@ -230,7 +230,7 @@
             "Renk": "Beyaz",
             "Üretici Firma": "Yöntem"
         },
-        "image": "/src/assets/new_products/kagit_fotograflar/Only-40x40GarsonKatlama.jpg"
+        "image": "/images/kagit/Only-40x40GarsonKatlama.jpg"
     },
     {
         "id": 105,
@@ -245,7 +245,7 @@
             "Kullanım Alanı": "Ofis, Araç, Ev",
             "Üretici Firma": "Yöntem"
         },
-        "image": "/src/assets/new_products/kagit_fotograflar/Only-PratikMendil.jpeg"
+        "image": "/images/kagit/Only-PratikMendil.jpeg"
     },
     {
         "id": 106,
@@ -261,6 +261,6 @@
             "Özellik": "Suda Kolay Çözülür",
             "Üretici Firma": "Yöntem"
         },
-        "image": "/src/assets/new_products/kagit_fotograflar/Only-TuvaletKagidi-2kat.jpeg"
+        "image": "/images/kagit/Only-TuvaletKagidi-2kat.jpeg"
     }
 ]
