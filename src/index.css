@@ -1,0 +1,248 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Renk Paleti (Premium Chemical Theme) */
+  --primary: #0f172a;
+  /* Derin Lacivert - Kurumsal ve Güçlü */
+  --primary-light: #1e293b;
+  --secondary: #0ea5e9;
+  /* Canlı Mavi/Camgöbeği - Modern ve Bilimsel */
+  --secondary-hover: #0284c7;
+  --accent: #f59e0b;
+  /* Kehribar - Vurgu ve Enerji */
+
+  --bg-color: #f8fafc;
+  /* Çok açık gri/mavi arka plan */
+  --surface-color: #ffffff;
+  /* Beyaz kartlar */
+  --text-primary: #1e293b;
+  --text-secondary: #64748b;
+  --text-light: #94a3b8;
+
+  --border-color: #e2e8f0;
+
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+
+  --radius-md: 0.5rem;
+  --radius-lg: 0.75rem;
+
+  --container-max-width: 1280px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.2s;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  border-radius: var(--radius-md);
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}
+
+/* Layout Utilities */
+.container {
+  width: 100%;
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.grid {
+  display: grid;
+}
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:grid-cols-4 {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Typography */
+.text-center {
+  text-align: center;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.text-3xl {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.05rem;
+}
+
+.text-4xl {
+  font-size: 3rem;
+  font-weight: 900;
+  letter-spacing: -0.1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.text-secondary {
+  color: var(--text-secondary);
+}
+
+.text-blue {
+  color: var(--secondary);
+}
+
+/* Buttons */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border-radius: var(--radius-md);
+  transition: all 0.2s;
+}
+
+.btn-primary {
+  background-color: var(--secondary);
+  color: white;
+  box-shadow: var(--shadow-md);
+}
+
+.btn-primary:hover {
+  background-color: var(--secondary-hover);
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  border: 2px solid var(--secondary);
+  color: var(--secondary);
+  background: transparent;
+}
+
+.btn-outline:hover {
+  background-color: var(--secondary);
+  color: white;
+}
+
+/* Animations */
+.fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

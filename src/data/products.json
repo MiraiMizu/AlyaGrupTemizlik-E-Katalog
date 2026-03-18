@@ -1,0 +1,266 @@
+[
+    {
+        "id": 201,
+        "name": "Beybi Eldiven",
+        "category": "Eldiven Grubu",
+        "description": "Beybi marka dayanıklı eldiven. İş güvenliği ve hijyen standartlarına uygun üretim.",
+        "features": {
+            "Marka": "Beybi",
+            "Kullanım Alanı": "Genel Amaçlı",
+            "Dayanıklılık": "Yüksek"
+        },
+        "image": "/images/eldiven/BEYBI.jpg.webp"
+    },
+    {
+        "id": 202,
+        "name": "Dolphin Eldiven",
+        "category": "Eldiven Grubu",
+        "description": "Dolphin kalitesiyle üretilmiş profesyonel eldiven. Hassas işler için mükemmel kavrama sağlar.",
+        "features": {
+            "Marka": "Dolphin",
+            "Yapı": "Esnek",
+            "Konfor": "Terleme yapmaz"
+        },
+        "image": "/images/eldiven/DOLPHIN.jpg.webp"
+    },
+    {
+        "id": 203,
+        "name": "Labprime Eldiven",
+        "category": "Eldiven Grubu",
+        "description": "Laboratuvar ve hassas üretim alanları için Labprime nitril eldiven. Kimyasallara dirençli.",
+        "features": {
+            "Marka": "Labprime",
+            "Materyal": "Nitril",
+            "Renk": "Mavi"
+        },
+        "image": "/images/eldiven/LABPRIME.jpg"
+    },
+    {
+        "id": 301,
+        "name": "Duffy Ultra Yoğun Çamaşır Suyu",
+        "category": "Kimyasal Grubu",
+        "description": "Üstün formülüyle zorlu lekelere nüfuz eder ve uzun süreli hijyen sağlar. Yüzeylerde mükemmel temizlik ve parlaklık yaratır.",
+        "features": {
+            "Marka": "Biofer",
+            "Etki": "Ultra Yoğun Çamaşır Suyu",
+            "Hacim": "5 kg / 20 kg"
+        },
+        "image": "/images/kimyasal/BIOFER-Duffy20kg.jpeg"
+    },
+    {
+        "id": 302,
+        "name": "Felix Ultra Yağ Sökücü",
+        "category": "Kimyasal Grubu",
+        "description": "Mutfak yüzeylerindeki inatçı ve beklemiş yağ lekelerini anında çözer. Ekstra güçlü formülüyle ovma gerektirmeden derinlemesine temizler.",
+        "features": {
+            "Marka": "Biofer",
+            "Etki": "Ultra Yağ Sökücü",
+            "Hacim": "750 gr"
+        },
+        "image": "/images/kimyasal/BIOFER-Felix.jpeg"
+    },
+    {
+        "id": 303,
+        "name": "Flores Parfümlü Yüzey Temizleyici",
+        "category": "Kimyasal Grubu",
+        "description": "Tüm yıkanabilir yüzeylerde kalıcı ve ferah bir koku bırakarak etkili temizlik sağlar. İz bırakmayan formülü ile gün boyu parlaklık sunar. Geniş alanlar ve profesyonel kullanımlar için tasarlanmıştır.",
+        "features": {
+            "Marka": "Biofer",
+            "Etki": "Parfümlü Yüzey Temizleyici",
+            "Hacim": "5 kg / 20 kg"
+        },
+        "image": "/images/kimyasal/BIOFER-Flores.jpeg",
+        "additionalImages": [
+            "/images/kimyasal/BIOFER-Flores20kg.jpeg"
+        ]
+    },
+    {
+        "id": 304,
+        "name": "Guentum Mineralli Ovma Kremi",
+        "category": "Kimyasal Grubu",
+        "description": "Banyo ve mutfaklarda yer alan zorlu kirlere özel formül. Mineralli mikro partikülleri sayesinde yağ, kireç ve pas lekelerini yüzeyi çizmeden söküp atar.",
+        "features": {
+            "Marka": "Biofer",
+            "Etki": "Mineralli Ovma Kremi",
+            "Hacim": "700 gr"
+        },
+        "image": "/images/kimyasal/BIOFER-Guentum.jpeg"
+    },
+    {
+        "id": 305,
+        "name": "Kratos Foam Köpük Sabun",
+        "category": "Kimyasal Grubu",
+        "description": "Pratik kullanım sunan ve elleri kurutmayan köpük sabun. Kremsi köpük yapısı sayesinde az miktarla bile yoğun temizlik ve hijyen sağlar. Cildi nemlendirir.",
+        "features": {
+            "Marka": "Biofer",
+            "Etki": "Köpük Sabun",
+            "Hacim": "5 kg"
+        },
+        "image": "/images/kimyasal/BIOFER-KratosFoam5kg.jpeg"
+    },
+    {
+        "id": 306,
+        "name": "Lilium Elde Bulaşık Yıkama",
+        "category": "Kimyasal Grubu",
+        "description": "Bol köpüklü ve güçlü formülü ile inatçı yağ ve yemek kalıntılarını anında söker. Limon kokusuyla bulaşıklarınıza ferahlık katar ve kolay durulanma özelliğiyle su tasarrufu sağlar. Endüstriyel mutfaklar ve yoğun kullanım alanları için idealdir.",
+        "features": {
+            "Marka": "Biofer",
+            "Etki": "Elde Bulaşık Yıkama Deterjanı",
+            "Hacim": "5 kg / 20 kg"
+        },
+        "image": "/images/kimyasal/BIOFER-Lilium5kg.jpeg",
+        "additionalImages": [
+            "/images/kimyasal/BIOFER-Lilium20kg.jpeg"
+        ]
+    },
+    {
+        "id": 307,
+        "name": "Nox Çelik Parlatıcı",
+        "category": "Kimyasal Grubu",
+        "description": "Paslanmaz çelik, krom ve alüminyum yüzeylerin temizliği, bakımı ve parlatılması için idealdir. Su lekesi ve parmak izlerini yok ederek koruyucu film tabakası oluşturur. Yüzeyi canlandırır.",
+        "features": {
+            "Marka": "Biofer",
+            "Etki": "Çelik Parlatıcı",
+            "Hacim": "750 gr"
+        },
+        "image": "/images/kimyasal/BIOFER-Nox.jpeg"
+    },
+    {
+        "id": 308,
+        "name": "Vetroglass Cam Temizleme Ürünü",
+        "category": "Kimyasal Grubu",
+        "description": "Cam, ayna, vitrin ve parlak yüzeylerde mükemmel sonuç verir. Toz, kir ve yağları iz veya hav bırakmadan anında temizler. Hızlı kuruyan formülü ile kolay bir temizlik deneyimi yaşatır.",
+        "features": {
+            "Marka": "Biofer",
+            "Etki": "Cam Temizleme Ürünü",
+            "Hacim": "750 gr"
+        },
+        "image": "/images/kimyasal/BIOFER-Vetroglass.jpeg"
+    },
+    {
+        "id": 401,
+        "name": "Moppro Sünger",
+        "category": "Sarf Grubu",
+        "description": "Moppro temizlik süngeri ile zorlu lekeleri ovalayarak çıkarın. Uzun ömürlü ve dayanıklı.",
+        "features": {
+            "Marka": "Moppro",
+            "Tip": "Oluklu Sünger",
+            "Paket": "Çoklu"
+        },
+        "image": "/images/sarf/MOPPRO SUNGER.jpeg"
+    },
+    {
+        "id": 402,
+        "name": "Mikrofiber Bez",
+        "category": "Sarf Grubu",
+        "description": "Genel temizlik için yüksek performanslı mikrofiber bez. Deterjansız temizlik imkanı.",
+        "features": {
+            "Doku": "Mikrofiber",
+            "Özellik": "Leke Bırakmaz",
+            "Renk": "Karışık"
+        },
+        "image": "/images/sarf/MIKROFIBER BEZ.jpeg"
+    },
+    {
+        "id": 403,
+        "name": "Moppro Mop",
+        "category": "Sarf Grubu",
+        "description": "Profesyonel zemin temizliği için Moppro mop yedeği. Yüksek su emiş gücü.",
+        "features": {
+            "Marka": "Moppro",
+            "Tip": "Islak Mop",
+            "Materyal": "Pamuk/Polyester"
+        },
+        "image": "/images/sarf/MOPPRO MOP.jpeg"
+    },
+    {
+        "id": 101,
+        "name": "Drop MiniJumboTuvalet kagidi",
+        "category": "Kağıt Grubu",
+        "description": "Yüksek emiş gücü ve dayanıklı yapısıyla umumi alanlar ve yoğun kullanım gerektiren yerler için ideal ölçülerde mini jumbo tuvalet kağıdı. Pratik kullanım ve tasarruf imkanı sunar.",
+        "features": {
+            "Marka": "Drop",
+            "Ürün Tipi": "Tuvalet Kağıdı",
+            "Kat Sayısı": "Belirtilmemiş",
+            "Boyut": "Mini Jumbo",
+            "Üretici Firma": "Yöntem"
+        },
+        "image": "/src/assets/new_products/kagit_fotograflar/Drop-MiniJumboTuvalet-kagidi.jpg"
+    },
+    {
+        "id": 102,
+        "name": "Evo TuvaletKagidi 3kat",
+        "category": "Kağıt Grubu",
+        "description": "Yüksek emicilik ve ekstra yumuşaklığa sahip Evo 3 katlı tuvalet kağıdı. Hassas cilde uygun dokusu ve üstün suda çözünme özelliğiyle, evinizde veya işletmenizde kaliteyi hissettirir.",
+        "features": {
+            "Marka": "Evo",
+            "Ürün Tipi": "Tuvalet Kağıdı",
+            "Kat Sayısı": "3 Katlı",
+            "Doku": "Ekstra Yumuşak ve Dolgun",
+            "Özellik": "Suda Kolay Çözünür",
+            "Üretici Firma": "Yöntem"
+        },
+        "image": "/src/assets/new_products/kagit_fotograflar/Evo-TuvaletKagidi-3kat.jpeg"
+    },
+    {
+        "id": 103,
+        "name": "Only 25x25GarsonKatlama",
+        "category": "Kağıt Grubu",
+        "description": "Şık restoran, kafe ve etkinlik sunumları için özel olarak tasarlanmış Only 25x25 cm garson katlama peçete. Zarif görünümü ve dayanıklı yapısı ile masalara estetik bir dokunuş katar.",
+        "features": {
+            "Marka": "Only",
+            "Ürün Tipi": "Garson Peçete",
+            "Boyut": "25x25 cm",
+            "Kullanım Alanı": "Restoran, Kafe, Etkinlik Servisleri",
+            "Renk": "Beyaz",
+            "Üretici Firma": "Yöntem"
+        },
+        "image": "/src/assets/new_products/kagit_fotograflar/Only-25x25GarsonKatlama.jpeg"
+    },
+    {
+        "id": 104,
+        "name": "Only 40x40GarsonKatlama",
+        "category": "Kağıt Grubu",
+        "description": "Büyük boyutlu kare tasarım ve özel garson katlaması (1/8 katlama) ile lüks masa düzenini tamamlayan Only 40x40 cm peçete. Kaliteli dokusu sayesinde üst düzey restoran ve özel davetler için tercih edilir.",
+        "features": {
+            "Marka": "Only",
+            "Ürün Tipi": "Garson Peçete",
+            "Boyut": "40x40 cm",
+            "Kullanım Alanı": "Lüks Restoran, Kafe, Özel Davetler",
+            "Renk": "Beyaz",
+            "Üretici Firma": "Yöntem"
+        },
+        "image": "/src/assets/new_products/kagit_fotograflar/Only-40x40GarsonKatlama.jpg"
+    },
+    {
+        "id": 105,
+        "name": "Only PratikMendil",
+        "category": "Kağıt Grubu",
+        "description": "Gündelik ihtiyaçları hızlı ve hijyenik şekilde karşılamak üzere üretilen Only pratik mendil. Otomobil içi, ofis masaları ve küçük işletmelerde el altında bulundurulması gereken ekonomik çözüm.",
+        "features": {
+            "Marka": "Only",
+            "Ürün Tipi": "Pratik Kutu Mendil",
+            "Doku": "Yumuşak",
+            "Renk": "Beyaz",
+            "Kullanım Alanı": "Ofis, Araç, Ev",
+            "Üretici Firma": "Yöntem"
+        },
+        "image": "/src/assets/new_products/kagit_fotograflar/Only-PratikMendil.jpeg"
+    },
+    {
+        "id": 106,
+        "name": "Only TuvaletKagidi 2kat",
+        "category": "Kağıt Grubu",
+        "description": "Günlük kullanım için ideal kalınlık ve yumuşaklık sunan Only 2 katlı tuvalet kağıdı. Güçlü yapısı cilde dosttur ve yüksek emiş gücüyle etkili temizlik sağlar, her kullanımda standart kalite beklentilerini karşılar.",
+        "features": {
+            "Marka": "Only",
+            "Ürün Tipi": "Tuvalet Kağıdı",
+            "Kat Sayısı": "2 Katlı",
+            "Doku": "Yumuşak",
+            "Renk": "Beyaz",
+            "Özellik": "Suda Kolay Çözülür",
+            "Üretici Firma": "Yöntem"
+        },
+        "image": "/src/assets/new_products/kagit_fotograflar/Only-TuvaletKagidi-2kat.jpeg"
+    }
+]
