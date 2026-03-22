@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Menu, X, Search } from 'lucide-react';
-import alyaLogo from '../assets/AlyaGrupLogo.png';
+import { Menu, X } from 'lucide-react';
+import alyaLogo from '../assets/NewLogo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);

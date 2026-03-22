@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Beaker, Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Facebook, Twitter, Linkedin, Instagram } from 'lucide-react';
+import alyaLogoSmall from '../assets/AlyaGrupLogo.png';
 
 const Footer = () => {
     return (
@@ -10,8 +11,7 @@ const Footer = () => {
                     {/* Brand Info */}
                     <div className="space-y-4">
                         <div className="flex items-center gap-2">
-                            <Beaker className="w-6 h-6 text-secondary" />
-                            <span className="text-xl font-bold tracking-tight">ALYA<span className="text-secondary">GRUP</span></span>
+                            <img src={alyaLogoSmall} alt="Alya Grup" className="h-12 w-auto object-contain" />
                         </div>
                         <p className="text-gray-600 text-sm leading-relaxed">
                             Alya Grup olarak, sektörün ihtiyaç duyduğu yüksek kaliteli temizlik ürünlerini Ankara merkezli tedarik eden ana bayiyiz. Hastanelerden otellere, fabrikalardan kurumsal firmalara kaliteli çözüm ortağınız.
