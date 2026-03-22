@@ -39,9 +39,6 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-4">
-            <button className="p-2 text-gray-500 hover:text-secondary transition-colors">
-              <Search className="w-5 h-5" />
-            </button>
             <Link to="/contact" className="btn btn-primary text-sm px-5 py-2.5">
               Teklif Al
             </Link>

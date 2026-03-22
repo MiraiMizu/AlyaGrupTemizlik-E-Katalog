@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="bg-white text-primary border-t border-gray-100 pt-16 pb-8 mt-20">
             <div className="container">
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
                     {/* Brand Info */}
                     <div className="space-y-4">
                         <div className="flex items-center gap-2">
@@ -21,18 +21,6 @@ const Footer = () => {
                             <a href="#" className="text-gray-600 hover:text-primary transition-colors"><Twitter className="w-5 h-5" /></a>
                             <a href="#" className="text-gray-600 hover:text-primary transition-colors"><Instagram className="w-5 h-5" /></a>
                         </div>
-                    </div>
-
-                    {/* Quick Links */}
-                    <div>
-                        <h3 className="text-lg font-semibold mb-6">Hızlı Erişim</h3>
-                        <ul className="space-y-3">
-                            <li><Link to="/" className="text-gray-600 hover:text-secondary text-sm transition-colors">Anasayfa</Link></li>
-                            <li><Link to="/products" className="text-gray-600 hover:text-secondary text-sm transition-colors">Ürünlerimiz</Link></li>
-                            <li><Link to="/about" className="text-gray-600 hover:text-secondary text-sm transition-colors">Hakkımızda</Link></li>
-                            <li><Link to="/contact" className="text-gray-600 hover:text-secondary text-sm transition-colors">İletişim</Link></li>
-                            <li><Link to="/msds" className="text-gray-600 hover:text-secondary text-sm transition-colors">Yasal & MSDS</Link></li>
-                        </ul>
                     </div>
 
                     {/* Categories */}
