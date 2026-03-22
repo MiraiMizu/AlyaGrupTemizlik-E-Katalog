@@ -8,6 +8,11 @@ import ProductDetail from './pages/ProductDetail';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Magazine from './pages/Magazine';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import CookiePolicy from './pages/CookiePolicy';
+import CodeOfConduct from './pages/CodeOfConduct';
+import InformationSecurity from './pages/InformationSecurity';
+import TermsOfUse from './pages/TermsOfUse';
 
 const App = () => {
   return (
@@ -27,6 +32,11 @@ const App = () => {
                 <Route path="/products/:id" element={<ProductDetail />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/contact" element={<Contact />} />
+                <Route path="/gizlilik-politikasi" element={<PrivacyPolicy />} />
+                <Route path="/cerez-politikasi" element={<CookiePolicy />} />
+                <Route path="/davranis-kurallari" element={<CodeOfConduct />} />
+                <Route path="/bilgi-guvenligi" element={<InformationSecurity />} />
+                <Route path="/kullanim-kosullari" element={<TermsOfUse />} />
               </Routes>
             </main>
             <Footer />

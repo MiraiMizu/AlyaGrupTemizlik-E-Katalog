@@ -67,10 +67,13 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-gray-100 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
-                    <p>&copy; 2024 AlyaGrup Temizlik. Tüm hakları saklıdır.</p>
-                    <div className="flex gap-6">
-                        <Link to="/privacy" className="hover:text-primary">Gizlilik Politikası</Link>
-                        <Link to="/terms" className="hover:text-primary">Kullanım Şartları</Link>
+                    <p>&copy; 2026 AlyaGrup Temizlik. Tüm hakları saklıdır.</p>
+                    <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+                        <Link to="/gizlilik-politikasi" className="hover:text-primary transition-colors">Gizlilik Politikası</Link>
+                        <Link to="/cerez-politikasi" className="hover:text-primary transition-colors">Çerez Politikası</Link>
+                        <Link to="/davranis-kurallari" className="hover:text-primary transition-colors">Davranış Kuralları</Link>
+                        <Link to="/bilgi-guvenligi" className="hover:text-primary transition-colors">Bilgi Güvenliği</Link>
+                        <Link to="/kullanim-kosullari" className="hover:text-primary transition-colors">Kullanım Koşulları</Link>
                     </div>
                 </div>
             </div>
