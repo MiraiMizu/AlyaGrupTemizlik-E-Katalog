@@ -43,7 +43,7 @@ const ProductList = () => {
     };
 
     return (
-        <div className="bg-gray-50 min-h-screen py-6 md:py-10">
+        <div className="bg-white min-h-screen py-6 md:py-10">
             <div className="container">
 
                 {/* Header */}
