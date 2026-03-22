@@ -9,7 +9,6 @@ const Navbar = () => {
   const navItems = [
     { name: 'Ürünler', path: '/products' },
     { name: 'Hakkımızda', path: '/about' },
-    { name: 'İletişim', path: '/contact' },
   ];
 
   return (
