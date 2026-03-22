@@ -14,7 +14,7 @@ const Footer = () => {
                             <span className="text-xl font-bold tracking-tight">ALYA<span className="text-secondary">GRUP</span></span>
                         </div>
                         <p className="text-gray-600 text-sm leading-relaxed">
-                            Endüstriyel, gıda ve kozmetik sektörleri için yüksek kaliteli ham madde ve kimyasal çözümler sunuyoruz. Güvenilir tedarik zinciri ve teknik destek.
+                            Alya Grup olarak, sektörün ihtiyaç duyduğu yüksek kaliteli temizlik ürünlerini Ankara merkezli tedarik eden ana bayiyiz. Hastanelerden otellere, fabrikalardan kurumsal firmalara kaliteli çözüm ortağınız.
                         </p>
                         <div className="flex gap-4 pt-2">
                             <a href="#" className="text-gray-600 hover:text-primary transition-colors"><Linkedin className="w-5 h-5" /></a>
@@ -52,15 +52,15 @@ const Footer = () => {
                         <ul className="space-y-4">
                             <li className="flex items-start gap-3 text-sm text-gray-600">
                                 <MapPin className="w-5 h-5 text-secondary shrink-0" />
-                                <span>Organize Sanayi Bölgesi, 3. Cadde No: 12<br />Başakşehir / İstanbul</span>
+                                <span>Lalegül Mah. 358. Cd. 68/B,<br />Yenimahalle/Ankara</span>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-gray-600">
                                 <Phone className="w-5 h-5 text-secondary shrink-0" />
-                                <span>+90 (212) 555 00 00</span>
+                                <span>+90 533 139 3328</span>
                             </li>
                             <li className="flex items-center gap-3 text-sm text-gray-600">
                                 <Mail className="w-5 h-5 text-secondary shrink-0" />
-                                <span>info@alyagrup.com</span>
+                                <span>ornek@gmail.com</span>
                             </li>
                         </ul>
                     </div>

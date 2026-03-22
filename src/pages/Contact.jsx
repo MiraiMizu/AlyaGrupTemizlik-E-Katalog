@@ -58,7 +58,7 @@ const Contact = () => {
                             <div>
                                 <h3 className="text-lg font-bold text-primary mb-2">Telefon</h3>
                                 <p className="text-gray-500 mb-2">Hafta içi 08:30 - 18:00 arası</p>
-                                <a href="tel:+902125550000" className="text-xl font-bold text-primary hover:text-secondary transition-colors">+90 (212) 555 00 00</a>
+                                <a href="tel:+905331393328" className="text-xl font-bold text-primary hover:text-secondary transition-colors">+90 533 139 3328</a>
                             </div>
                         </div>
 
@@ -70,7 +70,7 @@ const Contact = () => {
                                 <div>
                                     <h3 className="text-lg font-bold text-primary mb-2">E-posta</h3>
                                     <p className="text-gray-500 mb-2">Her zaman bize yazabilirsiniz</p>
-                                    <a href="mailto:info@alyagrup.com" className="text-xl font-bold text-primary hover:text-secondary transition-colors">info@alyagrup.com</a>
+                                    <a href="mailto:ornek@gmail.com" className="text-xl font-bold text-primary hover:text-secondary transition-colors">ornek@gmail.com</a>
                                 </div>              </div>
                         </div>
 
@@ -81,9 +81,8 @@ const Contact = () => {
                             <div>
                                 <h3 className="text-lg font-bold text-primary mb-2">Merkez Ofis & Depo</h3>
                                 <p className="text-gray-600 leading-relaxed">
-                                    İkitelli Organize Sanayi Bölgesi<br />
-                                    Metal İş Sanayi Sitesi, 3. Cadde No: 12<br />
-                                    Başakşehir / İstanbul
+                                    Lalegül Mah. 358. Cd. 68/B<br />
+                                    Yenimahalle/Ankara
                                 </p>
                             </div>
                         </div>

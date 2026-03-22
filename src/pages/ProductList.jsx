@@ -63,7 +63,7 @@ const ProductList = () => {
                 </div>
 
                 {/* Mobile: horizontal scrollable chips */}
-                <div className="flex lg:hidden gap-2 overflow-x-auto pb-3 mb-6 -mx-4 px-4 scrollbar-hide">
+                <div className="flex lg:hidden gap-2 overflow-x-auto pb-4 mb-6 -mx-4 px-4 chip-scrollbar">
                     {categories.map(cat => (
                         <button
                             key={cat}
