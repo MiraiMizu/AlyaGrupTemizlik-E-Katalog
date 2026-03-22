@@ -6,13 +6,13 @@
 @tailwind utilities;
 
 :root {
-  /* Renk Paleti (Premium Chemical Theme) */
-  --primary: #0f172a;
-  /* Derin Lacivert - Kurumsal ve Güçlü */
-  --primary-light: #1e293b;
-  --secondary: #0ea5e9;
-  /* Canlı Mavi/Camgöbeği - Modern ve Bilimsel */
-  --secondary-hover: #0284c7;
+  /* Renk Paleti (Alya Grup Purple Theme) */
+  --primary: #4c1d95;
+  /* Koyu Mor (Violet 900) - Kurumsal ve Güvenilir */
+  --primary-light: #5b21b6;
+  --secondary: #8b5cf6;
+  /* Canlı Mor (Violet 500) - Modern ve Dinamik */
+  --secondary-hover: #7c3aed;
   --accent: #f59e0b;
   /* Kehribar - Vurgu ve Enerji */
 

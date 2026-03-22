@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import { Menu, X, Search, Beaker } from 'lucide-react';
+import { Menu, X, Search } from 'lucide-react';
+import alyaLogo from '../assets/AlyaGrupLogo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,10 +18,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between h-20">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 group">
-          <div className="bg-primary p-2 rounded-lg group-hover:bg-secondary transition-colors">
-            <Beaker className="w-6 h-6 text-white" />
-          </div>
-          <span className="text-xl font-bold text-primary tracking-tight">ALYA<span className="text-secondary">GRUP</span></span>
+          <img src={alyaLogo} alt="Alya Grup Logo" className="h-12 md:h-14 w-auto object-contain" />
         </Link>
 
         {/* Desktop Menu */}
