@@ -7,7 +7,6 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const navItems = [
-    { name: 'Anasayfa', path: '/' },
     { name: 'Ürünler', path: '/products' },
     { name: 'Hakkımızda', path: '/about' },
     { name: 'İletişim', path: '/contact' },
